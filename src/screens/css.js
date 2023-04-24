@@ -23,5 +23,14 @@ export const StylesForm = StyleSheet.create({
     viewText: {
         width: '100%',
         textAlign: 'left'
-    }
+    },
+    toggleContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
+        marginTop: 10,
+      },
+      toggleLabel: {
+        marginLeft: 10,
+      },
 });
